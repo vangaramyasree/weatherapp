@@ -1,0 +1,22 @@
+.left part{
+    background-color: rgb(20,148,247);
+}
+.right part{
+    background-color: white;
+}
+
+.left{
+    left:0;
+    background-color: rgb(20,148,247);
+    text-align:center;
+}
+.right{
+    right:0;
+    text-align:left;
+}
+.centered{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
